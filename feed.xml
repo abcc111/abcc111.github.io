@@ -1,0 +1,106 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://0.0.0.0:4000/</id>
+  <title>Hello</title>
+  <subtitle></subtitle>
+  <updated>2024-12-09T14:06:36+08:00</updated>
+  <author>
+    <name>abcc</name>
+    <uri>http://0.0.0.0:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://0.0.0.0:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
+  <rights> © 2024 abcc </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>CVE-2024-51164</title>
+    <link href="http://0.0.0.0:4000/posts/CVE-2024-51164/" rel="alternate" type="text/html" title="CVE-2024-51164" />
+    <published>2024-11-16T14:10:00+08:00</published>
+  
+    <updated>2024-11-16T14:10:00+08:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/CVE-2024-51164/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/posts/CVE-2024-51164/" />
+    <author>
+      <name>abcc</name>
+    </author>
+
+  
+    
+  
+
+  <summary>Description
+
+Multiple parameters have SQL injection vulnerability in JEPAAS, via /je/login/btnLog/insertBtnLog , which could allow a remote user to submit a specially crafted query, allowing an attacker to retrieve all the information stored in the DB.
+
+Analysis
+
+Analysis of je-core-7.2.8.jar revealed SQL injection issues. Multiple parameters in the insertBtnLog interface in BtnLogController.ja...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>CVE-2024-51165</title>
+    <link href="http://0.0.0.0:4000/posts/CVE-2024-51165/" rel="alternate" type="text/html" title="CVE-2024-51165" />
+    <published>2024-11-14T21:02:30+08:00</published>
+  
+    <updated>2024-11-14T21:02:30+08:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/CVE-2024-51165/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/posts/CVE-2024-51165/" />
+    <author>
+      <name>abcc</name>
+    </author>
+
+  
+    
+  
+
+  <summary>Description
+SQL injection vulnerability in JEPAAS7.2.8, via /je/rbac/rbac/loadLoginCount in the dateVal parameter, which could allow a remote user to submit a specially crafted query, allowing an attacker to retrieve all the information stored in the DB.
+Analysis
+The vulnerability affects the component je-core-7.2.8.jar. An SQL injection issue exists in je-core-7.2.8\com\je\rbac\controller, wit...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Writing a New Post</title>
+    <link href="http://0.0.0.0:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
+    <published>2019-08-08T14:10:00+08:00</published>
+  
+    <updated>2019-08-08T14:10:00+08:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/write-a-new-post/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/posts/write-a-new-post/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  <summary>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
+
+Naming and Path
+
+Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...</summary>
+
+  </entry>
+
+</feed>
+
+
